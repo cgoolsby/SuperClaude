@@ -1,0 +1,28 @@
+{
+  "name": "minimal",
+  "description": "Minimal installation with core framework only",
+  "components": {
+    "core": {
+      "enabled": true,
+      "description": "Core framework files (GEMINI.md and supporting docs)"
+    },
+    "commands": {
+      "enabled": true,
+      "description": "Basic command set"
+    },
+    "mcp": {
+      "enabled": false,
+      "description": "MCP servers disabled"
+    },
+    "personas": {
+      "enabled": false,
+      "description": "Personas disabled"
+    }
+  },
+  "settings": {
+    "autoPersona": false,
+    "autoMCP": false,
+    "tokenOptimization": "manual",
+    "waveMode": "off"
+  }
+}

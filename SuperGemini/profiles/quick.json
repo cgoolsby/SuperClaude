@@ -1,0 +1,29 @@
+{
+  "name": "quick",
+  "description": "Recommended quick installation with core components",
+  "components": {
+    "core": {
+      "enabled": true,
+      "description": "Core framework files (GEMINI.md and supporting docs)"
+    },
+    "commands": {
+      "enabled": true,
+      "description": "16 specialized /sg: commands"
+    },
+    "mcp": {
+      "enabled": true,
+      "description": "MCP server configurations",
+      "servers": ["context7", "sequential", "magic", "playwright"]
+    },
+    "personas": {
+      "enabled": true,
+      "description": "11 AI personas for specialized assistance"
+    }
+  },
+  "settings": {
+    "autoPersona": true,
+    "autoMCP": true,
+    "tokenOptimization": "auto",
+    "waveMode": "auto"
+  }
+}

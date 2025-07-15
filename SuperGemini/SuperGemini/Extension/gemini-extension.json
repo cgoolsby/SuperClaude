@@ -1,0 +1,31 @@
+{
+  "name": "supergem",
+  "version": "1.0.0",
+  "description": "SuperGemini - Enhanced Gemini CLI with specialized commands, personas, and MCP integration",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["@context-labs/context-mcp"]
+    },
+    "sequential": {
+      "command": "npx", 
+      "args": ["@modelcontextprotocol/server-sequential-thinking"]
+    },
+    "magic": {
+      "command": "npx",
+      "args": ["@magicui/cli"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-playwright"]
+    }
+  },
+  "settings": {
+    "enablePersonas": true,
+    "enableWaveMode": true,
+    "commandPrefix": "/sg:",
+    "defaultPersona": null,
+    "tokenOptimization": "auto"
+  }
+}
